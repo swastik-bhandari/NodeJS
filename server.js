@@ -18,3 +18,16 @@
 //   ext: '.js',
 //   name: 'server'
 // }
+
+
+///////////////////// importing functions in math.js in server.js file ///////////////////////////
+
+// const math = require('./math');
+
+// console.log(math.sum(5,3));
+
+////////////////////////////////////////////////////////
+
+const {sum , sub , mul , div} = require('./math');
+
+console.log(sub(5,3));
