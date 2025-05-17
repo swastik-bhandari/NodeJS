@@ -1,2 +1,2 @@
-Hello , my name is swastik , coding is fun guys .
-i like nodeJS
+coding is fun
+yes i love coding
