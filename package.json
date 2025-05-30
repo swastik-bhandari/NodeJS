@@ -1,0 +1,22 @@
+{
+  "name": "mynode",
+  "version": "1.0.0",
+  "description": "packages used in this practice repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "swastik bhandari",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "path-to-regexp": "^8.2.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

@@ -1,0 +1,17 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color:green;
+  background-color: black;
+}
+img {
+  display: block;
+  max-width: 80%;
+  margin-inline: auto;
+}
+figcaption {
+  text-align : center;
+}
