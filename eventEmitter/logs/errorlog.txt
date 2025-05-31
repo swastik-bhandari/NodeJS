@@ -1,0 +1,2 @@
+2025/05/31	10:44:39	70e9d199-2b8b-4222-8cdb-9a2325dc7d48	Error	good morning
+2025/05/31	10:46:37	3fc9d1f8-314c-4ccc-bcae-50d6c5c75c6f	Error	Not allowed by CORS

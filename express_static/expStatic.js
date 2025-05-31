@@ -6,16 +6,16 @@ const fsPromises = require('fs').promises;
 
 const app = express();
 const PORT = process.env.PORT || 3500;
-app.use((req, res , next)=> {
-  console.log(req.url);
-  console.log(path.resolve(req.url));
-  if(!path.extname(req.url) && req.url!=='/') {
-     console.log('hello world');
-    req.url+='.html';
-  }
-  next();
-});
-app.use(express.static('./express_static/public'));
+// app.use((req, res , next)=> {
+//   if(!path.extname(req.url) && req.url!=='/') {
+//      console.log('hello world');
+//     req.url+='.html';
+//   }
+//   next();
+// });
+// app.use(express.static('./express_static/public'));
 
+// app.listen(PORT);
+
+//app.use(express.static('./express_static/public' , {extensions :['html']}) );
 app.listen(PORT);
-
